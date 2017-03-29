@@ -1,0 +1,40 @@
+<div class="page" data-behavior="pagination">
+    {{#with pagination}}
+    <form data-role="pagenavform" action="{{link_to}}">
+        <p class="r">
+            <span>
+                <a href="javascript:;" data-num="1" data-type="first_page" class="link-to">首页</a>
+            </span>
+            <span>
+                <a href="javascript:;" data-num="{{prev_page}}" data-type="prev_page" class="link-to">&lt;&lt;上一页</a>
+            </span>
+            <span>
+                <a href="javascript:;" data-num="{{next_page}}" data-type="next_page" class="link-to">下一页&gt;&gt;</a>
+            </span>
+            <span>
+                <a href="javascript:;" data-num="{{max_pages}}" data-type="max_page" class="link-to">末页</a>
+            </span>
+            <span class="goto">
+{{!--                 <select name="page" class="setpagenum" data-value="{{current_page}}">
+                    
+                    <option value="1">第1页</option>
+                    
+                    {{page_links max_pages}}
+                </select> --}}
+                跳转到<input name="page" data-value="{{current_page}}" value="{{current_page}}" />
+                <a href="javascript:void(0)">确定</a>
+            </span>
+            <span>当前{{current_page}}/{{max_pages}}页</span>
+        </p>
+        每页显示&nbsp;&nbsp;<select name="per_page" id="count" class="setpagecount" data-value="{{per_page_items}}">
+            {{#if_else per_page_items 20}}
+            <option value="20">20条</option>
+            {{else}}
+            <option value="10">10条</option>
+            {{/if_else}}
+            <option value="30">30条</option>
+            <option value="50">50条</option>
+        </select>
+    </form>
+    {{/with}}
+</div>

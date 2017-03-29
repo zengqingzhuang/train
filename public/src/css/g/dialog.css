@@ -1,0 +1,63 @@
+.diginfo{border: 0 none;margin: 0;padding: 0;}
+.dialog_wrapper{border:5px solid #b2b2b2;width:410px;position: absolute; z-index: 100000;background: #fff;/*height:550px;border-radius: 10px;box-shadow:0 0 10px rgba(0,0,0,.35)*/}
+.dialog_wrapper span.close {background: url(../../img/del.png) -21px -32px no-repeat;cursor: pointer;display:none;height: 10px;position: absolute;right: 10px;top: 10px;width: 10px}
+.dialog_wrapper a:hover span.close{background-position:-33px -32px}
+.dialog_wrapper h4 {background:#F7F7F7;border-bottom: 1px solid #E5E5E5;/*border-radius: 10px 10px 0 0;*/color: #333;font: 14px/40px "宋体";padding: 0 20px;text-align: left}
+.dialog_wrapper .submit{text-align: right;border-top:1px solid #e5e5e5; padding: 10px 0}
+.dialog_wrapper .submit .i_btn{float:none;display: inline-block; width:auto; margin-right:15px;font-size:14px}
+.dialog_wrapper .submit .i_btn a{padding:3px 20px;display:inline-block}
+.dialog_wrapper{animation:showSweetAlert 0.3s;-webkit-animation:showSweetAlert 0.3s;-moz-animation:showSweetAlert 0.3s;-o-animation:showSweetAlert 0.3s;}
+.dialog_wrapper article{line-height: 22px;padding: 40px 20px;display: block;margin:0;}
+.i_btn{border-color:#d62a2a;float: left;margin-top: 1px;text-align: center;}
+.i_btn a{background: #5395cf;border: 1px solid #5395cf;color: #fff;float: left;height: 26px;line-height: 26px;margin: 0 -1px;position: relative;text-decoration: none;}
+.dialog_close{animation:closeDialog 0.3s forwards;-webkit-animation:closeDialog 0.3s forwards;-moz-animation:closeDialog 0.3s forwards;-o-animation:closeDialog 0.3s forwards;}
+/*弹出弹窗动画效果*/
+@keyframes showSweetAlert {
+  0%   {transform: scale(0.7);}
+  45%  {transform: scale(1.05);}
+  80%  {transform: scale(0.95);}
+  100% {transform: scale(1);} 
+}
+@-webkit-keyframes showSweetAlert {
+  0%   {-webkit-transform: scale(0.7); }
+  45%  {-webkit-transform: scale(1.05); }
+  80%  {-webkit-transform: scale(0.95); }
+  100% {-webkit-transform: scale(1); } 
+}
+@-moz-keyframes showSweetAlert {
+  0%   {-moz-transform: scale(0.7); }
+  45%  {-moz-transform: scale(1.05); }
+  80%  {-moz-transform: scale(0.95); }
+  100% {-moz-transform: scale(1); } 
+}
+@-o-keyframes showSweetAlert {
+  0%   {-o-transform: scale(0.7); }
+  45%  {-o-transform: scale(1.05); }
+  80%  {-o-transform: scale(0.95); }
+  100% {-o-transform: scale(1); } 
+}
+/*关闭弹窗动画效果*/
+@keyframes closeDialog{
+  0%   {transform: scale(1);}
+  45%  {transform: scale(1.05);}
+  80%  {transform: scale(0.95);}
+  100% {transform: scale(0);} 
+}
+@-webkit-keyframes closeDialog{
+  0%   {-webkit-transform: scale(1);}
+  45%  {-webkit-transform: scale(1.05);}
+  80%  {-webkit-transform: scale(0.95);}
+  100% {-webkit-transform: scale(0);} 
+}
+@-moz-keyframes closeDialog{
+  0%   {-moz-transform: scale(1);}
+  45%  {-moz-transform: scale(1.05);}
+  80%  {-moz-transform: scale(0.95);}
+  100% {-moz-transform: scale(0);} 
+}
+@-o-keyframes closeDialog{
+  0%   {-o-transform: scale(1);}
+  45%  {-o-transform: scale(1.05);}
+  80%  {-o-transform: scale(0.95);}
+  100% {-o-transform: scale(0);} 
+}

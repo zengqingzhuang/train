@@ -1,0 +1,63 @@
+.l_content{width:780px;}
+.wrap{margin-top:20px;}
+.main_img{width:480px;height:300px;}
+.r_l{margin-left:25px;}
+.r_l h3{font-size: 18px;color:#1889c2;text-align: left;margin-bottom: 10px;}
+.r_l li{line-height:30px;height:30px;font-size:14px;margin-bottom: 7px;}
+.r_l label{margin-right:40px;float:left;width:60px;text-align: right;}
+.r_l span{width:155px;display: inline-block;text-align: left;}
+.bom_btn{margin-top:35px;}
+.b_p{border:none;background: #3d9ccc;color:#ffffff;padding: 8px 15px;font-weight:bold;cursor: pointer;}
+#nocare{background: #ccc;}
+
+/*tabs*/
+.tabs{margin-top:15px;}
+.gonav{font: 14px/40px "微软雅黑";text-align: left;width: 780px;height: 42px;float: left;}
+.gonav hgroup{border-bottom: 1px solid #e5e5e5;height: 40px;background: #f3f3f3;}
+.gonav hgroup span{display: inline-block;padding: 0 15px;cursor: pointer;}
+.gonav hgroup span.cur{font-weight: 700;border-top: 2px solid #3d9ccc;border-left: 1px #dfdfdf solid;border-right: 1px #dfdfdf solid;border-bottom: 1px #fff solid;height: 38px;background: #fff;}
+
+/*右侧*/
+.aside{height:900px;width:300px;background: #f3f3f3;}
+.aside .content{margin: 20px auto;width: 260px;height:860px;background: #ffffff;}
+.introduce{padding:10px 10px 20px;border-bottom:1px dotted #ccc;}
+.introduce .t{text-align: left;font-size:14px;}
+.introduce .t i{border: 2px solid #3d9ccc;float: left;height: 15px;margin-right: 10px;}
+.introduce .com_logo{width:150px;}
+.introduce h3.name{text-align: left;font-size:16px;}
+.introduce .star{margin-top:10px;}
+.introduce .star, .introduce .star i {background: #fff url("../../img/star.png") no-repeat;display: inline-block;height: 24px;overflow: hidden;vertical-align: middle;width: 120px;text-align: left;}
+.introduce .star i {background-position: 0 -22px;width: 0;}
+.introduce .star i.active12{width:12px;}
+.introduce .star i.active24{width:24px;}
+.introduce .star i.active36{width:36px;}
+.introduce .star i.active48{width:48px;}
+.introduce .star i.active60{width:60px;}
+.introduce .star i.active72{width:72px;}
+.introduce .star i.active84{width:84px;}
+.introduce .star i.active96{width:96px;}
+.introduce .star i.active108{width:108px;}
+.introduce .star i.active120{width:120px;}
+.introduce .good{text-align: left;margin-top:10px;}
+.introduce .good h3{font-size:14px;}
+.introduce .good li{border:1px dotted #ec1611;float:left;width:90px;margin: 10px; text-align: center;padding: 3px;}
+
+/*留言*/
+.comment{margin-top:15px;padding: 10px;}
+.msginfo{width:160px;padding: 10px;position: relative;background: #fff5dc;border-color: #f1ebdc;margin-left:52px;}
+.msginfo i,.msginfo em{position: absolute;top: 0;background: url(../../img/comment.png) no-repeat;width: 36px;height: 36px;text-indent: -999px;overflow: hidden;}
+.msginfo i{left: -46px;background-position: 0 0;}
+.msginfo em{left: -7px;background-position: -36px 0;width: 9px;}
+.msginfo p{word-wrap: break-word;word-break: break-all;text-align: left;}
+.msg{margin-top:20px;}
+.msg p,.recent_course p{text-align: left;font-size:14px;margin-bottom: 8px;}
+#commentInfo{border: 1px solid #ccc;height: 90px;width: 200px;}
+.txt .send{margin-right: 18px;margin-top: 5px;}
+
+/*近期课程*/
+.recent_course{padding: 10px;}
+.recent_course li{border-bottom: 1px dotted #ccc;margin-bottom:10px;font-size:14px;width:100%;text-align: right;float: left;padding: 5px;color:#999;}
+.recent_course em.red{margin-left:5px;}
+
+#messageInfo{border: 1px solid #ccc;height: 80px;width: 200px;}
+#dialog_wrapper .cen_ipt input.submitMsg{width:70px;}

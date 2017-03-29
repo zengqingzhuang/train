@@ -1,0 +1,135 @@
+{{!< home}}
+{{#extend "stylesheets"}}
+	<link rel="stylesheet" href="/src/css/d/courseDetail.css?v={{version}}"/>
+{{/extend}}
+<div class="area wrap">
+	<div class="l_content l">
+		<div class="detail clear">
+			<div class="d_l l">
+				<a href="#" title="">
+					<img class="main_img" src="/src/img/adv_1.jpg" alt="">
+				</a>
+			</div>
+			<div class="r_l l">
+				<h3>领导力培训课程</h3>
+				<ul>
+					<li>
+						<label>上课时间</label>
+						<span>6月13日至6月14日</span>
+					</li>
+					<li>
+						<label>费用</label>
+						<span class='red'>￥3000/人</span>
+					</li>
+					<li>
+						<label>人数</label>
+						<span>50人</span>
+					</li>
+					<li>
+						<label>讲师</label>
+						<span>张三</span>
+					</li>
+					<li>
+						<label>课时</label>
+						<span>12课时</span>
+					</li>
+				</ul>
+				<div class="bom_btn">
+					<input type="button" value='我感兴趣' class="care b_p" id="care" />
+					<input type="button" value='考虑中' class="think b_p" id="think" />
+					<input type="button" value='没兴趣' class="nocare b_p" id="nocare" />
+				</div>
+			</div>
+		</div>
+		<div class="tabs">
+			<div class="gonav l">
+				<hgroup>
+					<span class='cur' data-id='course_js'>课程介绍</span>
+					<span data-id='teacher_jj'>讲师简介</span>
+					<span data-id='course_pj'>课程评价</span>
+				</hgroup>
+			</div>
+			<div class="course_js" id="course_js">
+				课程介绍
+			</div>
+			<div class="teacher_jj hidden" id="teacher_jj">
+				讲师简介
+			</div>
+			<div class="course_pj hidden" id="course_pj">
+				课程评价
+			</div>
+		</div>
+	</div>
+	<aside class="aside r clear">
+		<div class="content">
+			<div class="introduce b_list clear">
+				<div class="t">
+					<i></i>
+					企业介绍
+				</div>
+				<img class="com_logo" src="/src/img/demo/tx.png" alt="">
+				<h3 class="name">腾讯科技有限公司</h3>
+				<p class="star l">
+					<i class='active84'></i>
+				</p>
+				<div class="good red l">
+					<h3>企业擅长</h3>
+					<ul>
+						<li class="of_text">咨询</li>
+						<li class="of_text">拓展</li>
+						<li class="of_text">领导力提升</li>
+						<li class="of_text">企业管理</li>
+					</ul>
+				</div>
+			</div>
+			<div class="comment">
+				<div class="msginfo">
+					<i></i>
+					<em></em>
+					<p>您好，我是腾讯科技有限公司招聘负责人，很高兴认识您，有任何问题欢迎交流沟通。</p>
+				</div>
+				<div class="msg clear">
+					<p>给我留言</p>
+					<div class="txt">
+						<textarea name="commentInfo" id="commentInfo"></textarea>
+						<input type="button" class="b_p send r" value='发送' />
+					</div>
+				</div>
+			</div>
+			<div class="recent_course">
+				<p>近期课程</p>
+				<ul>
+					<li>
+						<span class='l'>web前端工程师</span>
+						<span class='r'>
+							北京
+							<em class='red'><b>1.2W</b></em>
+						</span>
+					</li>
+					<li>
+						<span class='l'>web前端工程师</span>
+						<span class='r'>
+							北京
+							<em class='red'><b>1.2W</b></em>
+						</span>
+					</li>
+					<li>
+						<span class='l'>web前端工程师</span>
+						<span class='r'>
+							北京
+							<em class='red'><b>1.2W</b></em>
+						</span>
+					</li>
+					<li>
+						<span class='l'>web前端工程师</span>
+						<span class='r'>
+							北京
+							<em class='red'><b>1.2W</b></em>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+</div>
+<script type="text/javascript">require(['page/course/detail'])</script>

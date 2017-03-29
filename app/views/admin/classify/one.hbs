@@ -1,0 +1,54 @@
+{{!< admin}}
+{{#extend "stylesheets"}}
+    <link rel="stylesheet" href="/src/css/admin/classify_one.css?v={{version}}"/>
+{{/extend}}
+<article id="container" class="area clear" data-currentPage="classifyone">
+	{{> admin/sidebar}}
+	<section class="r">
+		<div class="tabs">
+			<ul>
+				<li class="cur">
+					<a href="/admin/classify/one">一级分类</a>
+				</li>
+				<li>
+					<a href="/admin/classify/two">二级分类</a>
+				</li>
+			</ul>
+		</div>
+		<div class="common_table clear">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <th class="w70">序号</th>
+                    <th class="w120">分类名称</th>
+                    <th class="w130">创建时间</th>
+                    <th class="w0">备注</th>
+                    <th class="w70">操作</th>
+                </tr>
+                {{!-- {{#each list}}
+                <tr>
+                    <td class="s70">{{id}}</td>
+                    <td class="s360 txt1"><a href="{{noticeLink}}" target="_blank">{{title}}</a></td>
+                    <td class="s70">{{sortIndex}}</td>
+                    <td class="s90">{{isRelease}}</td>
+                    <td class="s90"><a href="operate?id={{id}}">修改</a></td>
+                </tr>
+                {{/each}} --}}
+                <tr>
+                    <td class="of_text">1</td>
+                    <td class="of_text">在职培训类</td>
+                    <td class="of_text">2015-03-06 10:58</td>
+                    <td class="of_text">好好好好好好好好</td>
+                    <td class="of_text"><a class="operation" href="javascript:void(0)">编辑</a><a class="operation" href="javascript:void(0)">删除</a></td>
+                </tr>
+                <tr>
+                    <td class="of_text">2</td>
+                    <td class="of_text">在职培训类</td>
+                    <td class="of_text">2015-03-06 10:58</td>
+                    <td class="of_text">好好好好好好好好</td>
+                    <td class="of_text"><a class="operation" href="javascript:void(0)">编辑</a><a class="operation" href="javascript:void(0)">删除</a></td>
+                </tr>
+            </table>
+    	</div>
+	</section>
+</article>
+<script type="text/javascript">require(['page/admin/classify/one']);</script>

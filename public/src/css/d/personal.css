@@ -1,0 +1,10 @@
+.personal ul li{margin: 15px 0;}
+.personal ul li label{font-size:16px;width:470px;height:34px;line-height:34px;text-align: right;}
+.personal .rs{width: 610px;text-align: left;display: inline-block;margin-left: 20px;}
+.personal input.ipt{border:1px solid #d2d2d2;background:#fff;width:200px;height:30px;line-height: 30px;text-indent: 5px;padding: 2px 3px;}
+.personal input.sex{height:30px;vertical-align: middle;}
+.personal .rs select{width:120px;padding:2px 3px;height:30px;}
+.personal .btn{height:34px;color:#fff;cursor: pointer;}
+#getCode{border:1px solid #eea642;background: #eea642;width:85px;}
+.personal .rs .submit{border:1px solid #5395cf;background: #5395cf;width:208px;margin-bottom: 15px;}
+.personal .rs em.red{margin-left:5px;}

@@ -1,0 +1,61 @@
+/*toolbar*/
+#toolbar{width:100%; background:#e20000;color:#333;line-height:25px;position:relative;font-family:\5B8B\4F53;padding-top:5px}
+.toolbar{ position:relative;color: #D5D5D5}
+.toolbar .flow{overflow: hidden;margin-left:5px;_display:inline}
+.toolbar a.user{filter:alpha(opacity=100);opacity:1}
+.toolbar .l{position:relative;_padding-top:5px;width: 270px;text-align: left;white-space: nowrap}
+.toolbar .l .yqhy i{width:51px;height:18px;display:inline-block;background:url(top_icon_2.png) no-repeat -36px 0;_background:url(top_icon_2_ie6.png) no-repeat -36px 0;font-style: normal;text-align: center;line-height: 18px;color:#fff}
+.toolbar .l a{margin-right:10px}
+
+.toolbar .digtao{width:180px;height:52px;background:url(top_icon_2.png) no-repeat -87px 0;_background:url(top_icon_2_ie6.png) no-repeat -87px 0;position: absolute;right:145px;top:25px}
+.toolbar a{color:#fff;*display:inline;*zoom:1}
+.toolbar a:hover{filter:alpha(opacity=100);opacity:1;_color:#fff}
+.toolbar .digtao a.clo{width:15px;height:15px;position: absolute;right:4px;top:9px;display: inline-block}
+.toolbar .digtao a.img{width:35px;height:35px;position: absolute;left:10px;top:11px;display: inline-block}
+.toolbar .digtao a.txt{position: absolute;left:53px;top:12px;font-size: 14px}
+.toolbar .right{color:#D5D5D5}
+.toolbar .right span{color:#fff;}
+.toolbar .right em{color:#D5D5D5}
+/*.toolbar .right em .user{color:#cc0000}*/
+.toolbar .right em .maxuser{height: 30px;overflow: hidden;vertical-align: top;*vertical-align: middle;max-width: 180px;display: inline-block}
+.toolbar .right a.sina i,.toolbar .right a.qq i{background:url(icon_log.png) no-repeat;display:inline-block;*display:inline;*zoom:1;width:20px;height:14px;vertical-align:text-bottom;*vertical-align:middle}
+.toolbar .right a.qq i{background-position:-20px 0}
+.toolbar .right a.qq{opacity: 1;filter:alpha(opacity=100);text-decoration: underline}
+
+/*header*/
+header{background:#e20000; height:60px;overflow: hidden}
+header .area{margin-top: 5px}
+header h1{overflow:hidden; height:47px;color:#ffffff;font-size:30px;font-weight: 500;}
+
+/*sidebar*/
+#container{background:url(../../img/bgy.png) repeat-y top left}
+#container aside.left{width:140px;text-align: left; padding:10px 0 20px; min-height: 500px;height:auto;_height:500px}
+#container aside.left h3{font:14px/28px "微软雅黑";color:#333;padding-left:14px}
+#container aside.left ul{margin-bottom:10px}
+#container aside.left ul li{height:28px;line-height: 28px;overflow: hidden}
+#container aside.left ul li a{color:#808080;display: block;border-left:2px solid #ebebeb;padding-left:12px}
+#container aside.left ul li.cur a,#container aside.left ul li a:hover{border-left-color:#bababa;background: #fff;text-decoration: none}
+#container section{margin-top:20px;text-align: left;width:930px;}
+
+/*footer*/
+footer{ background: #fff;border-top: 3px solid #e02f2f;height: 60px;line-height: 30px;margin: 0 auto;padding: 20px 0 40px;width: 100%;}
+
+/*table*/
+.common_table{padding: 10px 0;}
+.common_table table{border-collapse: collapse;border-spacing: 0;font-family: Arial;table-layout: fixed;text-align: center;width: 100%;word-wrap: break-word;}
+.common_table table th{background-color: #f0f0f0;font-weight: 400;height: 30px;line-height: 15px;color:#333;}
+.common_table table td{line-height: 18px;padding: 5px;}
+.common_table table th, .common_table table td{border:1px solid #e1e1e1;}
+.common_table .w70{width:70px;}
+.common_table .w120{width:120px;}
+.common_table .w130{width:130px;}
+.common_table table td a{color:#428bca;}
+.common_table table td a.operation{margin-right:10px;}
+
+/*tabs*/
+section .tabs{border-bottom: 2px solid #f0ad4e;color: #e02f2f;height: 32px;line-height: 32px;overflow: hidden;text-align: right;}
+section .tabs ul li{background: #fff1de;border-color: #e9dbc8;border-style: solid;border-width: 1px 1px 0;float: left;text-align: center;margin-right:10px;}
+section .tabs li a{padding: 0 30px;line-height: 30px;display:inline-block;}
+section .tabs li.cur{background: #f0ad4e;border-color: #f0ad4e;}
+section .tabs li a:hover{color:#c00;}
+section .tabs li.cur a{color:#ffffff;}

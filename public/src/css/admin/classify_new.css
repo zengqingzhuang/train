@@ -1,0 +1,13 @@
+.classify h3{ color: #333;font: 700 16px/30px "微软雅黑";}
+.content{margin-top:10px;}
+.content li{margin-top:15px;line-height: 26px;}
+.content .level{vertical-align:middle;margin-top:-2px}
+.content .lbl{display: inline-block; width:80px;text-align: right;}
+.content .lbl i{vertical-align: middle;color:#e20000;}
+.content li span{color: #999;margin-left: 10px;}
+.content .gint{border: 1px solid #bbb;height: 20px;line-height: 20px;padding: 3px;width:500px;}
+.content .i2{height:70px;}
+.content select{width:200px;height:26px;}
+.content .submit{margin-left:80px;}
+.content .submitForm{background:#e02f2f; padding: 0px 20px; color: #fff;line-height: 30px;border: none;border-radius: 3px;cursor: pointer;}
+.content .submit em.red{margin-left: 5px;}

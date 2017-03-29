@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="myApp">
+<head>
+<meta charset="utf-8">
+<title>Angular-basic</title>
+<meta name="description" content="Copyright http://blog.fens.me">
+
+
+</head>
+<body ng-controller="demoCtrl">
+
+<ul>
+<li>{{data.name}}</li>
+<li ng-bind="data.name"></li>
+</ul>
+<ul>
+	循环demo
+	<li ng-repeat="item in data.lis">
+		<span>名字：{{item.name}}，值：{{item.value}}</span>
+		############## name:{{data.name}}
+	</li>
+</ul>
+<input type="button" ng-click="btnClick()" value="单击">
+<script src="bower_components/angular/angular.js"></script>
+<script>
+	var myApp = angular.module('myApp',[]);
+	myApp.controller('demoCtrl', function($scope){
+		$scope.data = {
+			name:'demo22222222222222',
+			lis:[
+				{name:'z1',value:'1'},
+				{name:'z2',value:'2'}
+			]
+		};
+		$scope.btnClick = function(){
+			alert('单击');
+		};
+	});
+</script>
+
+</body>
+</html>

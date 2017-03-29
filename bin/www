@@ -1,0 +1,11 @@
+var app = require('../app'),
+	config = require('../config'),
+	debug = require('debug');
+app.set('port', config.application.port);
+app.listen({
+	port: app.get('port'),
+	host: config.application.host
+}, function() {
+	debug('Express server listening on port ' + app.get('port'));
+	console.log('Express server listening on port ' + app.get('port'));
+});

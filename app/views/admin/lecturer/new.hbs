@@ -1,0 +1,11 @@
+{{!< admin}}
+{{#extend "stylesheets"}}
+	<link rel="stylesheet" href="/src/css/admin/lecturer_new.css?v={{version}}"/>
+{{/extend}}
+<article id="container" class="area clear" data-currentPage="lecturernew">
+	{{> admin/sidebar}}
+	<section class="r">
+		<div>讲师新增页面</div>
+	</section>
+</article>
+<script type="text/javascript">require(['page/admin/lecturer/new']);</script>

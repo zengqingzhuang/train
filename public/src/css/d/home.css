@@ -1,0 +1,43 @@
+/*top*/
+.category{margin-top:25px;margin-bottom:25px;}
+div.cate_l{width:380px;text-align: left;overflow: hidden;}
+div.cate_r{width:660px;}
+.cate_l .cate_c{overflow: hidden;background: #fafafa;padding:10px 15px;border-bottom: 1px solid #f0f0f0;}
+.cate_l h1{font-size: 20px;color:#1889c2;margin-bottom:10px;font-weight: 700;}
+.cate_l li{float:left;overflow: hidden;line-height: 22px;}
+.cate_l li a{margin-right: 10px;}
+.search_container{border: 2px solid #3d9ccc;border-right: 0 none;border-radius: 2px 0 0 2px;padding: 9px;width: 536px;height: 24px;background: #fff;transition: all .5s; }
+#searchTxt{background: #fff;outline: 0 none;width: 100%;border: 0 none;font-size: 18px;height: 24px;line-height: 24px;color: #999;}
+#btnSearch{cursor: pointer;outline:none;width: 104px;height: 46px;height: 45px\9;background: #3d9ccc;color: #ffffff;font-size: 18px;line-height: 42px;text-align: center;border: 0 none;border-radius: 0 2px 2px 0;}
+#btnSearch:hover{background: #3689b3;}
+.search_remind{text-align: left;line-height: 40px;font-size: 14px;}
+.search_remind span{color:#333;}
+.search_remind a{margin-right: 15px;}
+/*热门培训*/
+.h2_title{border-left: 4px solid #3c9ccc;line-height: 22px;margin-bottom:20px;padding-left:10px;}
+.h2_title span{font-weight: 400;font-size: 20px;}
+.h2_title .more{color:#13648d;font-size:14px;margin-right:56px;}
+.hot_train,.star_train{margin-bottom:25px;width:1156px;}
+.hot_train a:hover,.star_list a:hover{text-decoration: underline;}
+.hot_list li{background-color: #fff;border: 1px dashed #e3e3e3;margin-bottom:10px;margin-right:56px;padding: 15px 15px 10px;width: 490px;}
+.hot_list li:nth-child(even){margin-right:0;}
+.hot_list .li_mg{margin-right:56px;}
+.hot_list .job{width:210px;text-align: left;}
+.hot_list .job a,.star_list .star_a{display: inline-block;}
+.hot_list .job .title{margin-bottom: 5px;}
+.hot_list .job .title a{color: #3c9ccc;font-size: 16px;line-height: 25px;margin-right: 5px;max-width: 140px;}
+.hot_list .job .title span{color: #999;display: inline-block;font-size: 14px;max-width: 65px;margin-bottom:3px;}
+.hot_list .job .company a{width: 100%;color: #999;font-size: 14px;}
+.hot_list .money{color: #fd8825;display: inline-block;font-size: 18px;margin-top: 13px;padding: 0 10px;text-align: center;width: 118px;}
+.hot_list .job_img img{height:50px;width:100px;}
+/*培训之星*/
+.star_list li{background: #ffffff;border: 1px dashed #e3e3e3;color: #666;height: 135px;margin: 0 17px 20px 0;padding: 20px 20px 10px;position: relative;width: 220px;}
+.star_list li:nth-child(4n){margin-right:0;}
+.star_list .star_img{height:80px;width:160px;}
+.star_list .star_name{color:#999;font-size:14px;text-align: right;}
+.star_list .star_more{margin-top:10px;color:#3c9ccc;}
+
+
+/*@media screen and (min-width: 1100px){
+	body .area{width:1500px;}
+}*/

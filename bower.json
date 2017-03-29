@@ -1,0 +1,24 @@
+{
+  "name": "train",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "AdminLTE": "admin-lte#~2.3.2",
+    "Ionicons": "ionicons#~2.0.1",
+    "angular": "~1.4.7"
+  }
+}

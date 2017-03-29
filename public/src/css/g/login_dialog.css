@@ -1,0 +1,11 @@
+#dialog_wrapper{border:0;width:334px;}
+#dialog_wrapper span.close{display: inline-block;}
+#dialog_wrapper .login{text-align: left;margin-left:38px;margin-top:30px;}
+#dialog_wrapper .reg{margin-right:38px;text-decoration: underline;}
+#dialog_wrapper .reg:hover{color: #5395cf;}
+#dialog_wrapper .cen_ipt ul{width: 257px;padding: 0;margin: 0 auto;font-size: 12px;line-height: 30px;}
+#dialog_wrapper .cen_ipt ul li{margin-top:10px;}
+#dialog_wrapper .cen_ipt input.ipt{width: 92%;height: 20px;padding: 6px 10px;background: #fff;border: 0;line-height: 20px;color: #595757;border: 1px solid #c9caca;outline: 0;vertical-align: top;}
+#dialog_wrapper .cen_ipt input.diaLogin{width: 100%;border: 0;height: 35px;margin-bottom: 0px;background: #5395cf;cursor: pointer;font-size: 12px;color: #fff;}
+#dialog_wrapper .cen_ipt ul li.err_li{margin: 0;}
+#dialog_wrapper .errInfo{height:30px;width:100%;display: inline-block;}

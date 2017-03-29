@@ -1,0 +1,47 @@
+{{!< admin}}
+{{#extend "stylesheets"}}
+	<link rel="stylesheet" href="/src/css/admin/classify_new.css?v={{version}}"/>
+{{/extend}}
+<article id="container" class="area clear" data-currentPage="classifynew">
+	{{> admin/sidebar}}
+	<section class="classify r">
+		<h3>新增分类</h3>
+		<div class="content">
+			<form action="#" method="post">
+				<ul>
+					<li>
+						<label class="lbl l"><i>*</i>分类级别：</label>
+						<label for="oneLv">
+							<input class="level" value='1' name='LevelName' id="oneLv" type="radio" checked="checked" />一级分类	
+						</label>
+						<label for="twoLv">
+							<input class="level" value='2' name='LevelName' id="twoLv" type="radio" />二级分类	
+						</label>
+					</li>
+					<li id="oneLvNames" class="hidden">
+						<label class="lbl l"><i>*</i>一级分类：</label>
+						<select name="classifyLv" id="classifyLv">
+							<option value="1">在职培训</option>
+							<option value="2">软件培训</option>
+						</select>
+					</li>
+					<li>
+						<label class="lbl l"><i>*</i>分类名称：</label>
+						<input class="gint i1" name='classifyName' id="classifyName" type="text" placeholder="请输入分类名称" />
+						<span>还能输入20字</span>
+					</li>
+					<li>
+						<label class="lbl l">备注：</label>
+						<textarea class="gint i2" name="remark" id="remark"></textarea>
+						<span>还能输入100字</span>
+					</li>
+				</ul>
+				<div class="submit">
+					<input type="submit" value='保存' class="submitForm" id="submitForm" />	
+					<em class="red"></em>
+				</div>
+			</form>
+		</div>
+	</section>
+</article>
+<script type="text/javascript">require(['page/admin/classify/new']);</script>

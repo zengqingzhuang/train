@@ -1,0 +1,11 @@
+{{!< admin}}
+{{#extend "stylesheets"}}
+	<link rel="stylesheet" href="/src/css/admin/user_new.css?v={{version}}"/>
+{{/extend}}
+<article id="container" class="area clear" data-currentPage="usernew">
+	{{> admin/sidebar}}
+	<section class="r">
+		<div>用户账号新增页面</div>
+	</section>
+</article>
+<script type="text/javascript">require(['page/admin/account/usernew']);</script>

@@ -1,0 +1,82 @@
+{{!--个人注册页面--}}
+{{!< home}}
+{{#extend "stylesheets"}}
+	<link rel="stylesheet" href="/src/css/d/personal.css?v={{version}}"/>
+{{/extend}}
+<form id="reg_form" accept-charset="UTF-8" action="/nnc/register/personal/create.json" method="post">
+	<div class="area personal">
+		<ul>
+			<li>
+				<label class="l">所在城市</label>
+				<span class="rs setaddress">
+					<select name="provinceCode" class="prov" id="provinceCode">
+						<option value="">省</option>
+						{{{options_for_select_array provinces}}}
+					</select>
+					<select name="cityCode" class="city" id="cityCode">
+						<option value="">市</option>
+					</select>
+					<select name="areaCode" class="dist" id="areaCode">
+						<option value="">县/区</option>
+					</select>
+				</span>
+			</li>
+			<li>
+				<label class="l">姓名</label>
+				<span class="rs">
+					<input type="text" class="ipt" name="name" id="name" placeholder="请输入您的真实姓名" />	
+				</span>
+			</li>
+			<li>
+				<label class="l">出生日期</label>
+				<span class="rs">
+					<input type="text" class="ipt" name="birthday" id="birthday" placeholder="请输入出生日期" readonly="readonly" onclick="SelectDate(this,'yyyy-MM-dd')" />
+				</span>
+			</li>
+			<li>
+				<label class="l">性别</label>
+				<span class="rs">
+					<label>
+						<input class="sex" name="sex" type="radio" value="1" checked="checked" />男	
+					</label>
+					<label>
+						<input class="sex" name="sex" type="radio"  value="2" />女	
+					</label>
+				</span>
+			</li>
+			<li>
+				<label class="l">手机号码</label>
+				<span class="rs">
+					<input type="text" class="ipt" name="phoneNumber" id="phoneNumber" placeholder="请输入您的手机号码" />
+				</span>
+			</li>
+			<li>
+				<label class="l">验证码</label>
+				<span class="rs">
+					<input type="text" class="ipt" name="code" id="code" placeholder="请输入验证码" />
+					<input type="button" id='getCode' class="btn" value="获取验证码" />
+				</span>
+			</li>
+			<li>
+				<label class="l">密码</label>
+				<span class="rs">
+					<input type="password" class="ipt" name="password" id="password" placeholder="请输入密码" />
+				</span>
+			</li>
+			<li>
+				<label class="l">确认密码</label>
+				<span class="rs">
+					<input type="password" class="ipt" id="passwordOk" placeholder="请再次输入密码" />
+				</span>
+			</li>
+			<li>
+				<label class="l"></label>
+				<span class="rs">
+					<input type="button" id="btnSubmit" class="btn submit" value="提交" />
+					<em class="red"></em>
+				</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">require(['page/register'])</script>
+</form>
