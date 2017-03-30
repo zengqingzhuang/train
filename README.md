@@ -1,5 +1,5 @@
 # nodejs
-nodejs + express + hbs + requirejs + mysql /n
+nodejs + express + hbs + requirejs + mysql
 nodejs项目，全栈开发，操作mysql数据库
 终端执行 npm install  bower install
 npm start
